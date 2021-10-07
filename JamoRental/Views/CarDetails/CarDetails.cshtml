@@ -1,0 +1,22 @@
+﻿@model IEnumerable<JamoRental.Models.CarDetails> 
+@{
+    ViewBag.Title = "CarDetails";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Available Car for Rental</h1>
+
+
+@foreach (var carDetails in Model )
+{
+<div class="card text-white bg-dark mb-3" style="max-width: 20rem;">
+    <div class="card-header">Header</div>
+    <div class="card-body">
+        <h4 class="card-title">@carDetails.CarColor</h4>
+        <p class="card-text">@carDetails.CarMileage</p>
+    </div>
+</div>
+}
+
+
+

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1300
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JamoRental", "JamoRental\JamoRental.csproj", "{09D04018-BA77-4EE9-BF8A-5F193DFD0FEA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09D04018-BA77-4EE9-BF8A-5F193DFD0FEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09D04018-BA77-4EE9-BF8A-5F193DFD0FEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09D04018-BA77-4EE9-BF8A-5F193DFD0FEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09D04018-BA77-4EE9-BF8A-5F193DFD0FEA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {174C4357-28BE-45BC-A1DE-8063E514AE24}
+	EndGlobalSection
+EndGlobal
